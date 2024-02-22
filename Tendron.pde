@@ -1,14 +1,12 @@
 void setup() {
     size(500, 500);
-    background(0); // Change background color to black
+    background(0); 
     noLoop();
 }
-
 void draw() { 
-    background(0); // Clear canvas
-    Cluster c  = new Cluster(35, 250, 250); // initial number of segments in the tendril and starting (x,y) coordinate
+    background(255);
+    Cluster c  = new Cluster(35, 250, 250); 
 }
-
 void mousePressed() {
     redraw();
 }
