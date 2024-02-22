@@ -24,7 +24,8 @@ public class Tendril {
         }
         if (myNumSegments < 6) {
             return;
-        } else {
+        } 
+        else {
             new Cluster(myNumSegments/3, startX, startY);
         }
     }
