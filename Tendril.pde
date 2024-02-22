@@ -14,7 +14,6 @@ class Tendril
   public void show()
   {
     stroke(120+myNumSegments, 50+myNumSegments, myNumSegments);
-    strokeWeight((int)Math.sqrt(myNumSegments)/10 +1);
     float startX = myX*1.0;
     float startY = myY*1.0;
     for(int i=0; i<myNumSegments; i++){
