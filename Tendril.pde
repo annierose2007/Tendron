@@ -13,7 +13,7 @@ class Tendril
   }
   public void show()
   {
-    stroke(255);
+    stroke((int)(Math.random()*255),0,0);
     float startX = myX*1.0;
     float startY = myY*1.0;
     for(int i=0; i<myNumSegments; i++){
