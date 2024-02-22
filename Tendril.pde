@@ -28,6 +28,5 @@ class Tendril
     if(myNumSegments >= 3){
       new Cluster(myNumSegments/5, (int)startX, (int)startY);
     }
-    
   }
 }
